@@ -6,7 +6,7 @@ export default function UmaMaheshworSection() {
     <section className="temple-section temple-section--stacked">
       <Reveal variant="scale-up" className="temple-model temple-model--stacked">
         <TempleCanvas
-          modelUrl="/models/uma-maheshwor/model.glb"
+          modelUrl={`${import.meta.env.BASE_URL}models/uma-maheshwor/model.glb`}
           label="Uma Maheshwor"
           autoRotateSpeed={1}
           environment="sunset"

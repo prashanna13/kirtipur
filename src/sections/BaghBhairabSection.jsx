@@ -22,7 +22,7 @@ export default function BaghBhairabSection() {
 
       <Reveal variant="scale-up" delay={0.15} className="temple-model">
         <TempleCanvas
-          modelUrl="/models/bagh-bhairab/model.glb"
+          modelUrl={`${import.meta.env.BASE_URL}models/bagh-bhairab/model.glb`}
           label="Bagh Bhairab"
           autoRotateSpeed={0.7}
           environment="city"
